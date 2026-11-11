@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Für private Vermieter: Kosten des Jahres erfassen, nach Wohnfläche, Personen oder Verbrauch verteilen und die Nebenkostenabrechnung erstellen.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Nebenkosten fertig</a></div>
-  <nav class="top"><a href="#was" data-ev="click_nav_was">Was Sie bekommen</a><a href="price.html" data-ev="click_nav_preis">Preis</a><a href="#beispiel" data-ev="click_nav_beispiel">Beispiel</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Nebenkosten fertig</a>
+  <nav><a href="#was" data-ev="click_nav_was">Was Sie bekommen</a><a href="price.html" data-ev="click_nav_preis">Preis</a><a href="#beispiel" data-ev="click_nav_beispiel">Beispiel</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Die Betriebskostenabrechnung für Ihre Mieter — korrekt verteilt und rechtzeitig fertig</h1>
-    <p class="sub">Für private Vermieter mit einer oder wenigen Wohnungen: Sie erfassen die Betriebskosten des Jahres, wählen den Umlageschlüssel, die Vorauszahlungen werden abgezogen, und die Abrechnung für jede Mieterin und jeden Mieter mit Nachzahlung oder Guthaben ist fertig — innerhalb der Frist nach § 556 Abs. 3 BGB.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Das brauche ich</a>
-    <p class="cta-note">Dienst in Vorbereitung · Auf dieser Seite wird keine Zahlung angenommen</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Für private Vermieter mit einer oder wenigen Wohnungen</p>
+      <h1 class="rise" style="--i:1" data-len="long">Die Betriebskostenabrechnung für Ihre Mieter&nbsp;<span class="soft">— korrekt verteilt und rechtzeitig fertig</span></h1>
+      <p class="rise" style="--i:2">Für private Vermieter mit einer oder wenigen Wohnungen: Sie erfassen die Betriebskosten des Jahres, wählen den Umlageschlüssel, die Vorauszahlungen werden abgezogen, und die Abrechnung für jede Mieterin und jeden Mieter mit Nachzahlung oder Guthaben ist fertig — innerhalb der Frist nach § 556 Abs. 3 BGB.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Das brauche ich</a>
+      <p class="meta rise" style="--i:4">Dienst in Vorbereitung · Auf dieser Seite wird keine Zahlung angenommen</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="130" y="168" font-size="40" fill="#0a1524" font-weight="600">Abrechnung</text><line x1="80" y1="214" x2="1120" y2="214" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="260" width="48" height="48" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><text x="200" y="296" font-size="32" fill="#0a1524" font-weight="600">Mieter</text><rect x="130" y="360" width="48" height="48" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="200" y="372" width="300" height="24" fill="#dde2ea" rx="12" /><rect x="130" y="460" width="48" height="48" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="200" y="472" width="220" height="24" fill="#b9c3d2" rx="12" /><rect x="690" y="260" width="380" height="410" fill="#dfe8f7" rx="20" /><text x="720" y="320" font-size="32" fill="#0a1524" font-weight="600">Nachzahlung</text><text x="720" y="378" font-size="30" fill="#566174">Guthaben</text><rect x="730" y="470" width="50" height="150" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="808" y="530" width="50" height="90" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="886" y="420" width="50" height="200" fill="#12397a" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="964" y="500" width="50" height="120" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="2" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Für</dt><dd>Private Vermieter</dd></div>
+      <div><dt>Was</dt><dd>Betriebskostenabrechnung für Ihre Mieter</dd></div>
+      <div><dt>Wie</dt><dd>Den Umlageschlüssel</dd></div>
+      <div><dt>Dienst</dt><dd>In Vorbereitung</dd></div>
+    </dl>
+  </section>
 
   <section id="was" data-view="features_view">
-    <h2>Was Sie bekommen</h2>
-    <div class="grid">
-      <div class="card"><b>Kosten erfassen</b><span>Grundsteuer, Wasser, Müll, Versicherung, Hausmeister — mit Beleg.</span><br><a class="btn" href="price.html" data-ev="feature_kosten">Das brauche ich</a></div>
-      <div class="card"><b>Umlageschlüssel</b><span>Verteilung nach Wohnfläche, Personen, Einheiten oder Verbrauch.</span><br><a class="btn" href="price.html" data-ev="feature_umlage">Das brauche ich</a></div>
-      <div class="card"><b>Abrechnung je Mieter</b><span>Vorauszahlungen abgezogen, Nachzahlung oder Guthaben berechnet.</span><br><a class="btn" href="price.html" data-ev="feature_abrechnung">Das brauche ich</a></div>
-      <div class="card"><b>Fristen</b><span>Erinnerung, bevor die Abrechnungsfrist für den Zeitraum endet.</span><br><a class="btn" href="price.html" data-ev="feature_frist">Das brauche ich</a></div>
+    <div class="stack"><h2>Was Sie bekommen</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="56" width="660" height="488" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="126" font-size="32" fill="#0a1524" font-weight="600">Kosten erfassen</text><rect x="120" y="190" width="52" height="52" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="196" y="204" width="360" height="24" fill="#dde2ea" rx="12" /><polyline points="132,216 144,230 164,204" fill="none" stroke="#12397a" stroke-width="6" /><rect x="120" y="270" width="52" height="52" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="196" y="284" width="310" height="24" fill="#b9c3d2" rx="12" /><polyline points="132,296 144,310 164,284" fill="none" stroke="#12397a" stroke-width="6" /><rect x="120" y="350" width="52" height="52" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="196" y="364" width="260" height="24" fill="#dde2ea" rx="12" /><rect x="120" y="430" width="52" height="52" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="196" y="444" width="210" height="24" fill="#b9c3d2" rx="12" /></svg></div>
+        <h3>Kosten erfassen</h3><p>Grundsteuer, Wasser, Müll, Versicherung, Hausmeister — mit Beleg.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_kosten">Das brauche ich</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="56" width="660" height="488" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="126" font-size="32" fill="#0a1524" font-weight="600">Umlageschlüssel</text><line x1="130" y1="480" x2="680" y2="480" stroke="#dde2ea" stroke-width="4" /><rect x="160" y="360" width="64" height="120" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="280" y="280" width="64" height="200" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="400" y="320" width="64" height="160" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="520" y="240" width="64" height="240" fill="#12397a" rx="8" stroke="#dde2ea" stroke-width="2" /></svg></div>
+        <h3>Umlageschlüssel</h3><p>Verteilung nach Wohnfläche, Personen, Einheiten oder Verbrauch.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_umlage">Das brauche ich</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="56" width="660" height="488" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="126" font-size="32" fill="#0a1524" font-weight="600">Abrechnung je Mieter</text><circle cx="250" cy="240" r="40" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><circle cx="520" cy="240" r="40" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><ellipse cx="250" cy="340" rx="70" ry="40" fill="#12397a" /><ellipse cx="520" cy="340" rx="70" ry="40" fill="#b9c3d2" /><rect x="160" y="400" width="480" height="90" fill="#ffffff" rx="12" stroke="#dde2ea" stroke-width="3" /><rect x="190" y="430" width="200" height="16" fill="#dde2ea" rx="8" /><rect x="190" y="456" width="140" height="16" fill="#b9c3d2" rx="8" /></svg></div>
+        <h3>Abrechnung je Mieter</h3><p>Vorauszahlungen abgezogen, Nachzahlung oder Guthaben berechnet.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_abrechnung">Das brauche ich</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="56" width="660" height="488" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="126" font-size="32" fill="#0a1524" font-weight="600">Fristen</text><rect x="120" y="200" width="100" height="72" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="2" /><rect x="250" y="200" width="100" height="72" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="2" /><rect x="380" y="200" width="100" height="72" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="2" /><rect x="510" y="200" width="100" height="72" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="2" /><rect x="120" y="300" width="100" height="72" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="2" /><rect x="250" y="300" width="100" height="72" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="2" /><rect x="380" y="300" width="100" height="72" fill="#12397a" rx="10" stroke="#dde2ea" stroke-width="2" /><rect x="510" y="300" width="100" height="72" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="2" /><rect x="120" y="400" width="100" height="72" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="2" /><rect x="250" y="400" width="100" height="72" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="2" /><rect x="380" y="400" width="100" height="72" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="2" /><rect x="510" y="400" width="100" height="72" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="2" /></svg></div>
+        <h3>Fristen</h3><p>Erinnerung, bevor die Abrechnungsfrist für den Zeitraum endet.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_frist">Das brauche ich</a>
+      </article>
     </div>
   </section>
 
-  <section id="beispiel" data-view="example_view">
-    <h2>Beispiel (fiktive Daten)</h2>
-    <p class="fine">Vermieterin mit einem Dreifamilienhaus. Im März erfasst sie die Kosten des Vorjahres mit Belegen: Grundsteuer, Wasser, Müll, Gebäudeversicherung, Treppenhausreinigung. Wasser wird nach Zählern verteilt, der Rest nach Wohnfläche; jede Partei bekommt ihre Abrechnung, zwei mit Nachzahlung, eine mit Guthaben.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Paket wählen</a>
+  <section id="beispiel" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Beispiel</h2>
+      <p>Vermieterin mit einem Dreifamilienhaus. Im März erfasst sie die Kosten des Vorjahres mit Belegen: Grundsteuer, Wasser, Müll, Gebäudeversicherung, Treppenhausreinigung. Wasser wird nach Zählern verteilt, der Rest nach Wohnfläche; jede Partei bekommt ihre Abrechnung, zwei mit Nachzahlung, eine mit Guthaben.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Paket wählen</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="150" x2="1000" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">März</text><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">Wasser</text><circle cx="960" cy="150" r="22" fill="#12397a" /><text x="960" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">Guthaben</text><rect x="120" y="300" width="960" height="420" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="170" y="380" font-size="36" fill="#0a1524" font-weight="600">Nachzahlung</text><line x1="170" y1="410" x2="980" y2="410" stroke="#dde2ea" stroke-width="3" /><rect x="170" y="460" width="64" height="64" fill="#12397a" rx="10" stroke="#dde2ea" stroke-width="2" /><rect x="260" y="460" width="64" height="64" fill="#dfe8f7" rx="10" stroke="#dde2ea" stroke-width="2" /><rect x="350" y="460" width="64" height="64" fill="#dfe8f7" rx="10" stroke="#dde2ea" stroke-width="2" /><rect x="440" y="460" width="64" height="64" fill="#dfe8f7" rx="10" stroke="#dde2ea" stroke-width="2" /><rect x="530" y="460" width="64" height="64" fill="#dfe8f7" rx="10" stroke="#dde2ea" stroke-width="2" /><rect x="620" y="460" width="64" height="64" fill="#dfe8f7" rx="10" stroke="#dde2ea" stroke-width="2" /><text x="170" y="620" font-size="32" fill="#566174">Wohnfläche</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>So funktioniert es</h2>
-    <p>Wer eine Wohnung vermietet und vom Mieter Vorauszahlungen auf die Betriebskosten erhält, muss darüber einmal im Jahr abrechnen. Nach § 556 Abs. 3 BGB ist die Abrechnung spätestens zwölf Monate nach Ende des Abrechnungszeitraums mitzuteilen; danach kann eine Nachforderung in der Regel nicht mehr verlangt werden.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>So funktioniert es</h2></div>
+    <div class="stack">
+      <p>Wer eine Wohnung vermietet und vom Mieter Vorauszahlungen auf die Betriebskosten erhält, muss darüber einmal im Jahr abrechnen. Nach § 556 Abs. 3 BGB ist die Abrechnung spätestens zwölf Monate nach Ende des Abrechnungszeitraums mitzuteilen; danach kann eine Nachforderung in der Regel nicht mehr verlangt werden.</p>
     <p>Für private Vermieter mit einer oder wenigen Wohnungen ist das oft die mühsamste Aufgabe des Jahres. Belege müssen gesammelt, Kosten den richtigen Positionen zugeordnet, nach dem vereinbarten Schlüssel verteilt und die Vorauszahlungen abgezogen werden. Ein Fehler bei der Verteilung oder eine nicht umlagefähige Position führt schnell zu Streit mit der Mieterin oder dem Mieter.</p>
     <p>Die Software führt durch die Abrechnung. Sie legen das Objekt mit seinen Wohnungen, Wohnflächen und den Mietparteien an, und hinterlegen die vereinbarten Vorauszahlungen. Danach erfassen Sie die Kosten des Jahres, jeweils mit Beleg als Foto oder PDF.</p>
     <p>Jede Kostenposition wird einer Art der Betriebskosten zugeordnet, etwa Grundsteuer, Wasser und Abwasser, Müllabfuhr, Gebäudeversicherung, Hausreinigung oder Gartenpflege. Positionen, die üblicherweise nicht umlagefähig sind, etwa Reparaturen oder Verwaltungskosten, werden als Hinweis markiert, damit sie nicht versehentlich auf die Mieter verteilt werden.</p>
@@ -116,31 +150,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Alle Abrechnungen der vergangenen Jahre bleiben mit ihren Belegen gespeichert. Fragt eine Mieterin nach einer Position oder möchte Einsicht in die Belege, ist alles sofort gefunden.</p>
     <p>Der Einstieg dauert einen Abend: Objekt, Wohnungen, Mietparteien und Vorauszahlungen anlegen, dann die Kosten des abzurechnenden Jahres eingeben. Die Software läuft im Browser, ohne Installation.</p>
     <p>Die Software ist für private Vermieter mit einer überschaubaren Zahl von Wohnungen gedacht. Sie ist in Vorbereitung: Wir prüfen zuerst, ob Vermieter sie brauchen. Sie ist keine Rechtsberatung; für die Abrechnung bleibt der Vermieter verantwortlich.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Häufige Fragen</h2>
-    <h3>Bis wann muss die Nebenkostenabrechnung beim Mieter sein?</h3>
-    <p>Spätestens zwölf Monate nach Ende des Abrechnungszeitraums (§ 556 Abs. 3 BGB).</p>
-    <h3>Wie werden die Kosten verteilt?</h3>
-    <p>Nach dem Umlageschlüssel, den Sie je Position wählen: Wohnfläche, Personen, Einheiten oder Verbrauch.</p>
-    <h3>Was ist bei einem Mieterwechsel?</h3>
-    <p>Die Kosten werden zeitanteilig auf die Mietparteien verteilt.</p>
-    <h3>Ist das Rechtsberatung?</h3>
-    <p>Nein. Die Software erstellt die Abrechnung nach Ihren Angaben; verantwortlich bleibt der Vermieter.</p>
-    <h3>Kann ich sie schon nutzen?</h3>
-    <p>Noch nicht. Die Software ist in Vorbereitung, und wir prüfen, ob Vermieter sie brauchen.</p>
+    <div class="stack"><h2>Häufige Fragen</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Bis wann muss die Nebenkostenabrechnung beim Mieter sein?</h3><p>Spätestens zwölf Monate nach Ende des Abrechnungszeitraums (§ 556 Abs. 3 BGB).</p></div>
+      <div class="split flip"><h3>Wie werden die Kosten verteilt?</h3><p>Nach dem Umlageschlüssel, den Sie je Position wählen: Wohnfläche, Personen, Einheiten oder Verbrauch.</p></div>
+      <div class="split flip"><h3>Was ist bei einem Mieterwechsel?</h3><p>Die Kosten werden zeitanteilig auf die Mietparteien verteilt.</p></div>
+      <div class="split flip"><h3>Ist das Rechtsberatung?</h3><p>Nein. Die Software erstellt die Abrechnung nach Ihren Angaben; verantwortlich bleibt der Vermieter.</p></div>
+      <div class="split flip"><h3>Kann ich sie schon nutzen?</h3><p>Noch nicht. Die Software ist in Vorbereitung, und wir prüfen, ob Vermieter sie brauchen.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Legen Sie Ihr Objekt an</h2>
-    <p><label>Anzahl der vermieteten Wohnungen<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— bitte wählen —</option><option>1</option><option>2–4</option><option>5–12</option><option>Mehr als 12</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Starten</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Legen Sie Ihr Objekt an</h2>
+    </div>
+    <div class="tile stack">
+      <label>Anzahl der vermieteten Wohnungen<select data-ev-focus="form_start"><option value="">— bitte wählen —</option><option>1</option><option>2–4</option><option>5–12</option><option>Mehr als 12</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Starten</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Nebenkosten fertig</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Datenschutz</a></p>
-  <p class="muted">Software für Ihre Betriebskostenabrechnung. Keine Rechtsberatung; für die Abrechnung bleibt der Vermieter verantwortlich.</p>
+  <p>Software für Ihre Betriebskostenabrechnung. Keine Rechtsberatung; für die Abrechnung bleibt der Vermieter verantwortlich.</p>
 </div></footer>
 
 </body>
